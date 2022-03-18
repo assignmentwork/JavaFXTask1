@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="Windows.FirstwindowfxmlController">
+   <children>
+      <Button layoutX="144.0" layoutY="258.0" mnemonicParsing="false" onAction="#handleButton" text="Click Here...">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="37.0" />
+         </font>
+      </Button>
+      <Label fx:id="theLabel" layoutX="97.0" layoutY="105.0" text="This is the First Window">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
